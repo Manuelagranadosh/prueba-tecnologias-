@@ -1,0 +1,55 @@
+div{ 
+  background-color: #62B5B5;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+ left: 600px;
+  animation-name: bubble; 
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bubble{
+
+   0%{ 
+     top: 200px;
+  left: 600px;
+  background-color: blue;}
+  50%{ top: 400px;
+ left: 1000px;
+  background-color: green;}
+   100%{ 
+     top: 200px;
+  left: 600px;
+  background-color: purple;}
+}
+.circulo {
+   background-color: orange;
+  width: 100px;
+  height: 1000px;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+ left: 600px;
+  animation-name: bubble; 
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bubble{
+
+   0%{ 
+     top: 200px;
+  left: 600px;
+  background-color: blue;}
+  50%{ top: 400px;
+ left: 1000px;
+  background-color: green;}
+   100%{ 
+     top: 200px;
+  left: 600px;
+  background-color: purple;}
+}
+}
